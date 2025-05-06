@@ -7,7 +7,7 @@
 #elif defined(_WIN32)
 #include <glad.h>
 #else
-#include <GL/gl.h>
+#include <GLES3/gl3.h>
 #endif
 
 #include <nanovg.h>
